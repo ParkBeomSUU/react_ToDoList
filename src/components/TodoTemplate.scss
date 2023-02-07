@@ -1,0 +1,23 @@
+.TodoTemplate{
+    width: 512px;
+    //width가 주어진 상태에서 좌우 중앙정렬
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.app-title {
+    background: #22b8cf;
+    color: white;
+    height: 5rem;
+    font-size: 2rem;
+    display: flex; //https://flexboxfroggy.com/#ko 에서 연습
+    align-items: center; //세로중 중앙
+    justify-content: center; //가로중 중앙
+}
+
+.content{
+    background: rgb(204, 199, 200);
+}
